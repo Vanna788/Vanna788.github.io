@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Roboto:ital,wght@1,300&display=swap');
-header, figure, main, footer {
+
+header,
+figure,
+main,
+footer {
     max-width: 760px;
     margin: 1.25rem auto;
 }
 
-header, footer {
+header,
+footer {
     background-color: plum;
     text-align: center;
     padding: 5px;
@@ -12,9 +17,9 @@ header, footer {
 }
 
 h2 {
- margin: 0px;
- border-bottom: 3px gray solid;
- font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    border-bottom: 3px gray solid;
+    font-family: 'Roboto', sans-serif;
 }
 
 li {
@@ -27,7 +32,7 @@ header {
     font-size: 20px;
 }
 
- img {
+img {
     float: right;
     box-shadow: 5px 5px black;
 }
