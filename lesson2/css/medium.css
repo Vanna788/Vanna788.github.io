@@ -1,0 +1,17 @@
+@media only screen and (min-width: 560px) {
+    main {
+        grid-template-columns: 2fr;
+    }
+
+    .sec1 {
+        grid-column: 1;
+    }
+
+    .sec2 {
+        grid-column: 2;
+    }
+
+    
+
+    
+}

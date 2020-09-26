@@ -1,0 +1,68 @@
+main, section {
+    max-width: 760px;
+    margin: 1.25rem auto;
+}
+
+header, footer {
+    background-color: darkmagenta;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+section .head {
+    background-color: rgba(228, 124, 39, 0.877);
+    margin-left: 5px;
+}
+
+section {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 10px;
+    justify-content: center;
+    
+}
+
+figure .img1, .img2, .img3 {
+    width: 250px;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+}
+
+p, footer {
+    font-family: 'Varela Round', sans-serif;
+}
+
+a, .sitename {
+    margin-left: 5px;
+
+}
+
+h1 {
+     font-size: 50px;
+}
+ h2 {
+     font-size: 30px;
+ }
+
+ .info {
+     margin-left: 5px;
+ }
+h3 {
+    font-family: 'Bebas Neue', cursive;
+
+}
+ 
+
+
+
+
+ 
