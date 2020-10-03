@@ -97,5 +97,9 @@ figure img {
     width: 200px;
 }
 
+.active {
+    background-color:  cornflowerblue;
+}
+
 
 
