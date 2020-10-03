@@ -1,0 +1,101 @@
+
+
+
+
+a {
+   display: block;
+   background-color: lightcoral;
+   text-decoration: none;
+   color: black;
+   font-size: 25px;
+   text-align: center;
+   
+}
+
+header, footer {
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    width: 200px;
+    box-shadow: lightgrey 5px 5px;
+}
+
+h1, h2 {
+    margin-left: 5px;;
+}
+
+p {
+    margin-left: 5px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.scenarios {
+    margin-left: 5px;
+    
+}
+
+.scenarios li{
+    padding: 5px;
+}
+
+.typo li {
+    padding: 5px;
+}
+
+.color li {
+    padding: 5px;
+}
+
+.ts-1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.ts-2, .ts-4, .ts-5, .ts-6 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ts-3, .ts-7 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.cs-1 {
+    background-color: #5391F3;
+    color: white;
+}
+
+.cs-2 {
+    background-color: #8EAF9D;
+    color: white;
+}
+
+.cs-3 {
+    background-color: #8EAF9D;
+}
+
+.cs-5 {
+    background-color: #A25553;
+}
+
+h3 {
+    margin-left: 5px;
+}
+
+.personas li {
+    margin-left: 5px;
+    padding: 5px;
+}
+ 
+figure img {
+    width: 200px;
+}
+
+
+
