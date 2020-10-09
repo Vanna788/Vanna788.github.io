@@ -5,6 +5,8 @@ function menuTab() {
 
 }
 
-let d = new Date();
-document.getElementById("date").innerHTML = d;
+const options = {weekday: "long", day: "numeric", month: "long", year: "numeric"};
+document.getElementById("date").innerHTML = new Date().toLocaleDateString("en-US", options);
+
+
 

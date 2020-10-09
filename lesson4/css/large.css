@@ -5,6 +5,45 @@
    main, footer, div { max-width: 64rem;
     margin:auto;
     }
-
+ 
+   
+    nav button {
+        display: none;
+        }
+        
     
+        
+        nav ul li a {
+        border: none;
+        
+        padding: .6rem 1rem;
+        }
+        
+        
+        
+        nav ul.hide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+    
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            width: 125px;
+            margin-bottom: 0;
+        }
+        
+      
+
 }
+
+
