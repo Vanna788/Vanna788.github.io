@@ -2,7 +2,7 @@
 
      
    
-   main, footer, div { max-width: 64rem;
+   main, div { max-width: 64rem;
     margin:auto;
     }
  
@@ -15,8 +15,9 @@
         
         nav ul li a {
         border: none;
+        margin: 0px;
+        padding: 15px;
         
-        padding: .6rem 1rem;
         }
         
         
@@ -39,7 +40,12 @@
 
         .logo {
             width: 125px;
-            margin-bottom: 0;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            margin: 0 150px;
+            
         }
         
       
