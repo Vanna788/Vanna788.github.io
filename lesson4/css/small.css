@@ -28,6 +28,7 @@ nav button {
     background-color: transparent;
     padding: 10px;
     font-size: 30px;
+    outline: none;
 }
 
 nav li {
