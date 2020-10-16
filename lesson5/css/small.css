@@ -42,6 +42,7 @@ header h1 {
     margin-left: 5px;
     margin-bottom: 0%;
     
+    
 
     
 
@@ -106,11 +107,9 @@ footer {
     
 }
 
- .preston div {
-   border: 3px solid black;
-   padding: 10px;
-   margin: 10px;
-}
+ 
+   
+
 
    nav li:hover {
        background-color: lightgray;
@@ -120,11 +119,147 @@ footer {
        color: #A25553;
        margin-left: 5px;
        font-family: 'Quicksand', sans-serif;
+       text-align: center;
    }
    
    p {
     font-family: 'Roboto', sans-serif;
    }
+
+   main {
+       margin: 0% 5px;
+   }
+
+   .falltrees {
+       width: 100%;
+       
+       
+      
+   }
+
+   .herosec {
+       position: relative;
+   }
+
+   .weathersummary p span {
+       color: yellow;
+   }
+
+   .weathersummary {
+       border: 1px solid black;
+       width: 155px;
+       height: 155px;
+       position: absolute;
+       top: 25px;
+       left: 0px;
+       background-color: rgba(142, 175, 157, 0.7);
+   }
+
+   .weathersummary p {
+       color: white;
+       padding: 5px;
+   }
+
+   .forecast {
+       display: none;
+       
+   }
+
+   .fd {
+       display: none;
+   }
+
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+
+   }
+
+   .weathersummary h3 {
+       margin: 0%;
+       margin-left: 5px;
+       color: darkslategray;
+   }
+
+
+   .prestonart {
+       background-color: lightgrey;
+       margin-top: 20px;
+       padding: 20px;
+   }
+
+   .prestonartimg {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+   }
+
+
+   .prestonart img {
+    width: 300px;
+    margin-top: 10px;
+    box-shadow: grey 10px 10px 10px;
+    
+   }
+
+   .prestonart h3, h4, p {
+       margin-left: 5px;
+   }
+
+     .socialmedia  {
+       width: 50px;
+       margin: 5px;
+
+   }
+   .preston-map {
+       display: none;
+   }
+
+   .contact-us {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: #b4cbbe;
+       padding: 20px;
+       margin-top: 15px;
+   }
+
+   div {
+    font-family: 'Roboto', sans-serif;
+   }
+
+   #pancake {
+       background-color: lightyellow;
+       text-align: center;
+       padding: 50px;
+       margin: 40px;
+       box-shadow: 5px 5px 15px;
+       border: 3px solid black;
+   }
+
+   div.showme {
+       display: block;
+
+   }
+
+   div.hideme {
+     display: none;
+   }
+
+
+   
+
+   
+
+   
+    
+
+
+
+   
+
+   
+   
 
 
 
