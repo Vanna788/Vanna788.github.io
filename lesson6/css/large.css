@@ -1,0 +1,91 @@
+@media only screen and (min-width: 1028px) {
+
+     
+   
+   main, section { max-width: 64rem;
+    margin:  0% auto;
+    }
+ 
+   
+    nav button {
+        display: none;
+        }
+        
+    
+        
+        nav ul li a {
+        border: none;
+        margin: 0px;
+        padding: 15px;
+        
+        }
+        
+        
+        
+        nav ul.hide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+    
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            width: 125px;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            margin: 0 150px;
+            
+        }
+
+        .summary img {
+            width: 100%;
+            
+        }
+
+        .weathersummary {
+            top: 190px;
+        }
+
+        .weathersummary h3 {
+            color: black;
+          }
+
+          .preston-map {
+              margin-right: 100px;
+          }
+
+          .contact-us {
+              margin: 15px 10px 0px 10px;
+          }
+
+          .preston-map img {
+            width: auto;
+          }
+        
+
+
+        
+        
+            
+        
+
+
+
+        
+        
+      
+
+}
+
+
