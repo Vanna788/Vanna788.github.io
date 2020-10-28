@@ -1,0 +1,30 @@
+
+main {
+    margin: 0 auto;
+    max-width: 64rem;
+
+}
+
+main picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+img { 
+    margin: 15px;
+    border: 1px pink solid;
+    filter: blur(0em);
+  transition: filter 0.5s;
+}
+
+h1 {
+    text-align: center;
+    color: pink;
+}
+
+
+
