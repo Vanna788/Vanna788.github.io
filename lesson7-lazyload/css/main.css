@@ -1,15 +1,13 @@
 
+
 main {
-    margin: 0 auto;
-    max-width: 64rem;
-
-}
-
-main picture {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
+    max-width: 64rem;
+
 
 }
 
@@ -17,7 +15,7 @@ main picture {
 img { 
     margin: 15px;
     border: 1px pink solid;
-    
+    display: block;
   
 }
 
