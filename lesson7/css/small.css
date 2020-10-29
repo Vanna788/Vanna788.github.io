@@ -1,0 +1,282 @@
+
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0%;
+    margin: 0%;
+    
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0%;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav button {
+    margin-left: 20px;
+    font-size: 25px;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 30px;
+    outline: none;
+}
+
+nav li {
+    padding: 10px;
+    font-size: 25px;
+    margin: 0%;
+
+}
+
+header h1 {
+    margin-left: 5px;
+    margin-bottom: 0%;
+    
+    
+
+    
+
+}
+
+
+.logo {
+    
+    
+    width: 125px;
+    border-radius: 10px;
+    margin: 5px;
+    
+
+    
+
+    
+    
+}
+
+.motto {
+    font-size: 15px;
+    margin-left: 5px;
+    margin-bottom: 0%;
+    
+    
+}
+
+.active {
+    background-color: white;
+}
+
+
+
+
+nav {
+    text-align: center;
+    background-color: #8EAF9D;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Quicksand', sans-serif;
+    
+    
+}
+
+header {
+    background-color: #5390f3;
+    color: rgba(255, 246, 229, 0.986);
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    background-color: #8EAF9D;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+ 
+   
+
+
+   nav li:hover {
+       background-color: lightgray;
+   }
+
+   h2 {
+       color: #A25553;
+       margin-left: 5px;
+       font-family: 'Quicksand', sans-serif;
+       text-align: center;
+   }
+   
+   p {
+    font-family: 'Roboto', sans-serif;
+   }
+
+   main {
+       margin: 0% 5px;
+   }
+
+   .falltrees {
+       width: 100%;
+       
+       
+      
+   }
+   .hero {
+       width: 100%;
+       display: block;
+   }
+
+   .herosec {
+       position: relative;
+   }
+
+   .weathersummary p span {
+       color: yellow;
+   }
+
+   .weathersummary {
+       border: 1px solid black;
+       width: 155px;
+       height: 155px;
+       position: absolute;
+       top: 25px;
+       left: 0px;
+       background-color: rgba(142, 175, 157, 0.7);
+   }
+
+   .weathersummary p {
+       color: white;
+       padding: 5px;
+   }
+
+   .forecast {
+       display: none;
+       
+   }
+
+   .fd {
+       display: none;
+   }
+
+   h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+
+   }
+
+   .weathersummary h3 {
+       margin: 0%;
+       margin-left: 5px;
+       color: darkslategray;
+   }
+
+
+   .prestonart {
+       background-color: lightgrey;
+       margin-top: 20px;
+       padding: 20px;
+   }
+
+   .prestonartimg {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+   }
+
+
+   .prestonart img {
+    width: 300px;
+    margin-top: 10px;
+    box-shadow: grey 10px 10px 10px;
+    
+   }
+
+   .prestonart h3, h4, p {
+       margin-left: 5px;
+   }
+
+     .socialmedia  {
+       width: 50px;
+       margin: 5px;
+
+   }
+   .preston-map {
+       display: none;
+   }
+
+   .contact-us {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: #b4cbbe;
+       padding: 20px;
+       margin-top: 15px;
+   }
+
+   div {
+    font-family: 'Roboto', sans-serif;
+   }
+
+   #pancake {
+       background-color: lightyellow;
+       text-align: center;
+       padding: 50px;
+       margin: 40px;
+       box-shadow: 5px 5px 15px;
+       border: 3px solid black;
+   }
+
+   div.showme {
+       display: block;
+
+   }
+
+   div.hideme {
+     display: none;
+   }
+
+   header h1 {
+    font-family: 'Raleway', sans-serif;
+   }
+
+   
+
+
+   
+   
+
+
+   
+
+   
+
+   
+    
+
+
+
+   
+
+   
+   
+
+
+
+  
+    
+

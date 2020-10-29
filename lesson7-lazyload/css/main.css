@@ -17,8 +17,8 @@ main picture {
 img { 
     margin: 15px;
     border: 1px pink solid;
-    filter: blur(0em);
-  transition: filter 0.5s;
+
+  
 }
 
 h1 {
