@@ -254,7 +254,21 @@ footer {
     font-family: 'Raleway', sans-serif;
    }
 
+   .gallery {
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-gap: 10px;
+   }
    
+   .gallery img {
+       width: 100%;
+   }
+
+   figcaption {
+       display: none;
+   }
+
+
 
 
    
