@@ -264,9 +264,17 @@ footer {
        width: 100%;
    }
 
-   figcaption {
-       display: none;
+   .gallery img:hover {
+       box-shadow: gray 8px 8px 10px 3px;
    }
+
+   .gallery figure {
+       font-family: 'Roboto', sans-serif;
+       text-align: center;
+       
+   }
+
+
 
 
 

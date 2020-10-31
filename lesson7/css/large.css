@@ -73,6 +73,32 @@
             width: auto;
           }
         
+          .gallery {
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              align-items: center;
+              grid-gap: 0;
+          }
+
+          .breakclouds {
+              align-self: end;
+          }
+
+          .gallery img {
+              width: 300px;
+          }
+
+          .gallery figure {
+              box-shadow: gray 8px 8px 10px 3px;
+
+          }
+
+          
+     
+
+
+          
+           
 
 
         

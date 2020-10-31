@@ -83,6 +83,20 @@
    
  }
 
+ .gallery {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   
+ }
+  
+ .lightclouds {
+   align-self: end;
+ }
+ 
+
+ 
+  
+
   
 
   
