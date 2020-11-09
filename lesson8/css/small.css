@@ -292,9 +292,7 @@ footer {
    
 }
 
-textarea {
-    display: block;
-}
+
 
 form label {
     font-family: 'Roboto', sans-serif;
@@ -337,6 +335,22 @@ form .button {
       margin-bottom: 30px;
   }
 
+  .rad {
+      display: inline-block;
+      margin: 10px;
+
+  }
+
+  .comm {
+      display: flex;
+      flex-direction: column;
+      
+      }
+
+      .comm textarea {
+        width: 50%;
+      }
+      
 
 
 
