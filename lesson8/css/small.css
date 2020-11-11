@@ -330,29 +330,46 @@ form .button {
       flex-direction: row;
   }
 
-  .thankyou {
-      text-align: center;
-      margin-bottom: 30px;
+  .danger {
+      margin-bottom: 0;
   }
+  
 
-  .rad {
-      display: inline-block;
-      margin: 10px;
+    .rad  {
+     display: flex;
+     
+     
+     
+     
 
-  }
 
-  .comm {
-      display: flex;
-      flex-direction: column;
-      
-      }
+    }
+
+    .rad input {
+        margin: 5px;
+
+    }
+
+
+     .comm {
+         
+     }
+
 
       .comm textarea {
         width: 50%;
+        display: block;
+        
+    
+        
       }
+
+      .thankyou {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
       
-
-
 
 
 
