@@ -9,7 +9,7 @@ fetch(requestURL)
     //console.table(jsonObject);  // temporary checking for valid response and data parsing
  
   const prophets = jsonObject['prophets'];
-  for (let i = 0; i < prophets.length; i++ ) {
+  for (let i = 0; i < towns.length; i++ ) {
     let card = document.createElement('section');
 let h2 = document.createElement('h2');
 let bdate = document.createElement('p');

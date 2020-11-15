@@ -1,0 +1,150 @@
+@media only screen and (min-width: 1028px) {
+
+     
+   
+   main, section { max-width: 64rem;
+    margin:  0% auto;
+    }
+ 
+   
+    nav button {
+        display: none;
+        }
+        
+    
+        
+        nav ul li a {
+        border: none;
+        margin: 0px;
+        padding: 15px;
+        
+        }
+        
+        
+        
+        nav ul.hide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+    
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            width: 125px;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            margin: 0 150px;
+            
+        }
+
+        .summary img {
+            width: 100%;
+            
+        }
+
+        .weathersummary {
+            top: 190px;
+        }
+
+        .weathersummary h3 {
+            color: black;
+          }
+
+          .preston-map {
+              margin-right: 100px;
+          }
+
+          .contact-us {
+              margin: 15px 10px 0px 10px;
+          }
+
+          .preston-map img {
+            width: auto;
+          }
+        
+
+          /* Gallery Code */
+          .gallery {
+              display: grid;
+              grid-template-columns: repeat(3, 1fr);
+              align-items: center;
+              grid-gap: 0;
+          }
+
+          .breakclouds {
+              align-self: end;
+          }
+
+          .gallery img {
+              width: 300px;
+          }
+
+          .gallery figure {
+              box-shadow: gray 8px 8px 10px 3px;
+
+          }
+
+          .towns {
+              display: flex;
+              flex-direction: row;
+          }
+
+         .towns section {
+             display: grid;
+             grid-template-columns: 1fr;
+             grid-template-rows: 1fr;
+             
+         }
+
+         .towns section .town1 {
+             grid-row: 1;
+             grid-column: 1 / 3;
+         }
+
+         .towns section .town2 {
+            grid-row: 1;
+            grid-column: 1 / 3;
+        }
+
+        .towns section .town3 {
+            grid-row: 1;
+            grid-column: 1 / 3;
+        }
+
+        
+
+        
+
+
+     
+
+
+          
+           
+
+
+        
+        
+            
+        
+
+
+
+        
+        
+      
+
+}
+
+
