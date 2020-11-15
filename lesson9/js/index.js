@@ -22,7 +22,7 @@ fetch(requestURL)
       let rain = document.createElement('p');
       
       
-      image.setAttribute('src', 'images/fishhaven.jpg');
+      image.setAttribute('src', 'images/fishhaven1.jpg');
       image.setAttribute('alt', 'Plains');
       image.setAttribute('class', 'fishhaven');
       div.setAttribute('class', 'town1');
@@ -61,7 +61,7 @@ fetch(requestURL)
       date.textContent = "Date Founded: " + towns[4].yearFounded;
       pop.textContent = "Population: " + towns[4].currentPopulation;
       rain.textContent = "Annual rain fall: " + towns[4].averageRainfall;
-      image.setAttribute('src', 'images/preston.jpg');
+      image.setAttribute('src', 'images/preston1.jpg');
       image.setAttribute('alt', 'A Mountainside');
       image.setAttribute('class', 'preston');
       
@@ -90,7 +90,7 @@ fetch(requestURL)
       let pop = document.createElement('p');
       let rain = document.createElement('p');
 
-    image.setAttribute('src', 'images/soda.jpg');
+    image.setAttribute('src', 'images/soda1.jpg');
     image.setAttribute('alt', 'A Lake');
     div.setAttribute('class', 'town3');
     h2.textContent = towns[5].name;
