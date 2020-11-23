@@ -45,7 +45,7 @@ fetch(requestURL)
     document.querySelector('div.towns').appendChild(card);
   }
 
-  else if (i == 4) {
+  else if (i == 5) {
     let card = document.createElement('section');
     let div = document.createElement('div');
     let h2 = document.createElement('h2');
@@ -56,11 +56,11 @@ fetch(requestURL)
       let image = document.createElement('img');
 
       div.setAttribute('class', 'town2');
-      h2.textContent = towns[4].name;
-      span.textContent = towns[4].motto;
-      date.textContent = "Date Founded: " + towns[4].yearFounded;
-      pop.textContent = "Population: " + towns[4].currentPopulation;
-      rain.textContent = "Annual rain fall: " + towns[4].averageRainfall;
+      h2.textContent = towns[5].name;
+      span.textContent = towns[5].motto;
+      date.textContent = "Date Founded: " + towns[5].yearFounded;
+      pop.textContent = "Population: " + towns[5].currentPopulation;
+      rain.textContent = "Annual rain fall: " + towns[5].averageRainfall;
       image.setAttribute('src', 'images/preston1.jpg');
       image.setAttribute('alt', 'A Mountainside');
       image.setAttribute('class', 'preston');
@@ -80,7 +80,7 @@ fetch(requestURL)
       
   }
 
-  else if (i == 5) {
+  else if (i == 6) {
     let card = document.createElement('section');
     let image = document.createElement('img');
     let div = document.createElement('div');
@@ -93,11 +93,11 @@ fetch(requestURL)
     image.setAttribute('src', 'images/soda1.jpg');
     image.setAttribute('alt', 'A Lake');
     div.setAttribute('class', 'town3');
-    h2.textContent = towns[5].name;
-    span.textContent = towns[5].motto;
-    date.textContent = "Date Founded: " + towns[5].yearFounded;
-    pop.textContent = "Population: " + towns[5].currentPopulation;
-    rain.textContent = "Annual rain fall: " + towns[5].averageRainfall;
+    h2.textContent = towns[6].name;
+    span.textContent = towns[6].motto;
+    date.textContent = "Date Founded: " + towns[6].yearFounded;
+    pop.textContent = "Population: " + towns[6].currentPopulation;
+    rain.textContent = "Annual rain fall: " + towns[6].averageRainfall;
      
       
 
