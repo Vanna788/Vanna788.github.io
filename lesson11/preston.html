@@ -2,8 +2,8 @@
 <html lang="en-us">
     <head>
         <meta charset="utf-8" >
-        <meta name="description" content="Fill Me In">
-        <meta name="author" content="John Doe"> 
+        <meta name="description" content="A weather page of Preston, Idaho. Gives current weather conditions and a five day forecast. Also has a local area article.">
+        <meta name="author" content="Vanna H.R."> 
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <title>
           Cloudy Corner Preston
@@ -16,8 +16,9 @@
     </head>
     <body>
         <header>
-              <img class="logo" src="images/weathervane1.jpg" alt="a weather vane logo">
-          <h1>
+            <a href="index.html">
+                <img class="logo" src="images/weathervane1.jpg" alt="a weather vane logo">
+                </a>          <h1>
               Cloudy Corner Weather Site<br>
               <i class="motto">Not all clouds are grey</i>
           </h1>
@@ -27,20 +28,26 @@
             <ul id="primaryNav" class="hide">
                 <li><a href="index.html">Home</a></li>
                 <li class="active"><a href="preston.html">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li>
                 <li><a href="stormcenter.html">Storm Center</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
         <main class="preston">
+            <h2>
+                Preston
+            </h2>
             <div id="pancake">
                 Saturday = Preston Pancakes in the Park!<br>
                 9:00 a.m. Saturday at the city park pavilion.
             </div>
-          <h2>
-              Preston Idaho
-          </h2>
+
+            <section class="prestonevents">
+
+            </section>
+             
+         
           <section class="herosec">
               <picture class="hero">
                 <source media="(max-width: 400px)" srcset="images/treespic400.jpg">
@@ -75,11 +82,11 @@
            </h3>
            <h4>By: Mark Smith</h4>
            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus fermentum justo, ac sollicitudin erat. Duis sem odio, facilisis ac orci ut, scelerisque rhoncus mauris. Vivamus in enim justo. Maecenas tincidunt fringilla convallis. Pellentesque augue eros, consectetur non efficitur a, semper vulputate lorem. Nulla dictum gravida tempus. Donec quis aliquet eros. Duis pulvinar quam in est finibus fringilla. Quisque risus nisi, convallis non risus in, convallis pretium nibh. Donec sed justo sed elit ultrices fringilla. Aliquam erat volutpat. Suspendisse nec nunc faucibus, dictum augue a, sollicitudin ex.
-
-            Duis non luctus magna. Mauris congue vestibulum quam. Suspendisse potenti. Cras erat arcu, tincidunt vitae efficitur imperdiet, scelerisque et diam. Duis vel volutpat mi, faucibus consectetur mauris. Nam scelerisque facilisis pretium. Proin vitae purus risus. Donec pellentesque commodo dapibus. Ut lobortis, dolor vitae vehicula mollis, mi libero ullamcorper lacus, aliquam aliquam turpis augue ut leo. Integer iaculis sapien a volutpat efficitur.
-            
-            Pellentesque urna orci, aliquam ac lorem sed, lacinia dictum lacus. Vestibulum sodales, elit eu pulvinar tempus, ipsum metus tristique tortor, vitae congue nisl metus at dolor. Nulla facilisis ac orci sit amet sodales. Sed non mi rutrum, ornare tellus et, egestas nibh. Suspendisse varius elit eros, a eleifend risus porttitor et. Vestibulum scelerisque nulla non nibh commodo malesuada. Vivamus vitae bibendum ante. Etiam pulvinar, erat a ultricies lacinia, eros erat sollicitudin turpis, a congue ligula massa nec lorem. In id blandit lacus. Aenean sodales ac lectus et dapibus.
+            Calling professional and amateur photograpers! This fall marks the first ever Fall Photography bash 
+            in our area! Sponsored by our local camera shops, this event will bring together photographers from all walks of life!
+             Come and join a mini class for beginners, or join a discussion group with experts in the field. 
+             The bash will have local venders from around the state, as well as local shop set ups. The event begins on
+             April 7th at 10:00 a.m. All ages welcome! 
            </p>
        </article>
        <section class="contact-us">
@@ -109,5 +116,7 @@
         <script src="js/webfont.js"></script>
         <script src="js/weathersum.js"></script>
         <script src="js/fiveday.js"></script>
+        <script src="js/indexevents.js"></script>
+
     </body>
 </html>

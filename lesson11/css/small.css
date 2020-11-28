@@ -164,7 +164,7 @@ footer {
        padding: 5px;
    }
 
-   .forecast {
+   .fivedayforecast {
        display: none;
        
    }
@@ -391,10 +391,18 @@ form .button {
         background-color: lightgray;
         margin-top: 30px;
     }
+
+    .index-article p {
+        padding: 5px;
+        
+    }
     
     .index-trees {
-        width: 100%;
-        box-shadow: 5px 5px 8px gray;
+        float: left;
+        width: 50%;
+        box-shadow: 5px 5px 8px lightgrey;
+        margin: 10px;
+        
     }
         
 
@@ -423,6 +431,105 @@ form .button {
  .town2 {
      grid-row: 3;
  }
+
+ .prestonevents {
+    background-color: lightgrey;
+}
+ }
+
+ .prestonevents h3 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.prestonevents p {
+    margin: 7px;
+    padding: 5px;
+}
+
+ /*fish haven*/
+
+ .fishevents {
+     background-color: lightgrey;
+ }
+
+ .fishevents h3 {
+     margin: 10px;
+     padding: 10px;
+ }
+
+ .fishevents p {
+     margin: 7px;
+     padding: 5px;
+ }
+
+ .fishart img {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 5px;
+  
+  
+  
+  
+ 
+ 
+ }
+
+ .fishart {
+    background-color: lightgrey;
+    margin-top: 20px;
+    
+
+ }
+
+ .fishart h3, h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 5px;
+ }
+
+ .fishart p {
+     padding: 4px;
+ }
+
+ /* Sodahaven*/
+
+ .sodaevents {
+    background-color: lightgrey;
+}
+ }
+
+ .sodaevents h3 {
+    margin: 10px;
+    padding: 10px;
+}
+
+.sodaevents p {
+    margin: 7px;
+    padding: 5px;
+}
+
+.sodaart {
+    background-color: lightgrey;
+    margin-top: 20px;
+}
+
+.sodaart h3, h4 {
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+.sodaart p {
+    padding: 5px;
+}
+
+.sodaart img {
+    float: right;
+    width: 100%; 
+    box-shadow: lightgrey 10px 10px 5px;
+}
 
 
       

@@ -64,10 +64,17 @@
   .prestonartimg {
    display: block;
    float: right;
+   margin-top: 35px;
+  }
+
+  .prestonart h3, h4, p {
+     margin-left: 5px;
+
   }
  .prestonartimg img {
    margin: 5px;
    width: 350px;
+
  }
 
  .preston-map {
@@ -104,6 +111,46 @@
  .preston {
    grid-column: 2;
    grid-row: 3;
+ }
+
+ .index-trees {
+   float: right;
+   width: 200px;
+   margin: 0;
+  
+   
+   
+ }
+
+ /* SODA SPRINGS */
+
+ .sodaart p {
+   margin-bottom: 2px;
+ }
+
+ .sodaart img {
+  float: right;
+  width: 50%;
+  margin: 15px 0 15px 0;
+ 
+ }
+
+ .sodaart h3, h4, p {
+   margin-left: 2px;
+ }
+
+ /* FISH HAVEN */
+
+ .fishart img {
+  width: 150px;
+  
+  padding: 10px;
+  padding-top: 0;
+  padding-left: 5px;
+ }
+
+ .fishart {
+   margin-bottom: 50px;
  }
 
  

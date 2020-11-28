@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" >
+        <meta name="description" content="A weather page of Soda Springs, Idaho. Gives current weather conditions and a five day forecast.Also has a local area article.">
+        <meta name="author" content="Vanna H.R."> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>
+          Cloudy Corner Soda Springs
+        </title>
+        <link rel="shortcut icon" href="favicon.ico" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img class="logo" src="images/weathervane1.jpg" alt="a weather vane logo">
+                </a>          <h1>
+              Cloudy Corner Weather Site<br>
+              <i class="motto">Not all clouds are grey</i>
+          </h1>
+        </header>
+        <nav>
+            <button onclick="menuTab()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li class="active"><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main class="preston">
+            <h2>Soda Springs</h2>
+
+            <section class="sodaevents">
+
+            </section>
+
+            <section class="herosec">
+                <picture class="hero">
+                  <source media="(max-width: 400px)" srcset="images/sodaspringshero400.jpg">
+                  <source media="(max-width: 800px)" srcset="images/sodaspringshero800.jpg">
+                  <source media="(max-width: 1200px)" srcset="images/sodaspringshero1200.jpg">
+                  <img class="falltrees" src="images/sodaspringshero.jpg" alt="A lakeside view.">
+                </picture>
+                <div class="weathersummary">
+                    <h3>
+                        Weather Summary
+                    </h3>
+                    <p>
+                        Currently: <span id="currentlysoda"></span> <br>
+                        Temp.: <span id="htsoda"></span>&#8457; <br>
+                        Wind Chill: <span id="wcsoda">  </span>&#8457; <br>
+                        Humidity: <span id="humsoda"></span>% <br>
+                        WindSpeed: <span id="wssoda"></span>MPH
+                    </p>
+                </div>
+                </section>
+
+                <h2 class="fd">Five day forecast</h2>
+                <section class="fivedayforecast">    
+               </section>
+
+               <article class="sodaart">
+        
+                <img src="images/trail2.jpg" alt="A trail in the woods.">
+                
+                <h3>
+                    Local area trail activities!
+                </h3>
+                <h4>By: Phil Roberts</h4>
+                <p>
+                 Walking on trails flocked with dew-kissed flowers and towering trees can bring peace and quiet to a 
+                 overworked mind. Individuals and families can both benefit from a good hike, but need some motivation to get out there? 
+                 How about a cup of free hot cocoa waiting for you at the end of the trail? Christmas Season Hike starts at your local trail Dec. 21 at 5:00 p.m. .
+                 Lovers' Date Night Hike offers a chance to purchase sweets at the end of the trail for your one and only! Valentines' Day at 5:00 sharp! These are just a few 
+                 fun activities to help bring our community out to enjoy what nature has to offer! Happy hiking!
+                </p>
+            </article>
+            
+        
+
+
+
+            <section class="contact-us">
+           
+                <div class="preston-map">
+                    <img src="images/idaho-map.jpg" alt="Map of Preston Idaho">
+                </div>
+                <div class="address">
+                   <b>Cloudy Corner Weather Site</b><br>
+                   103 S Appleview Dr.<br>
+                   Preston, Idaho 83263<br><br>
+                 &#9742; 333-456-7890 <br>
+                 &#9993; cloudycornerweather@email.com<br><br>
+                   <img class="socialmedia" src="images/iconfinder_Circled_Instagram_svg_5279112(1).png" alt="instagram">
+                   <img class="socialmedia" src="images/iconfinder_Facebook_4490615(1).png" alt="facebook">
+                   <img class="socialmedia" src="images/iconfinder_Twitter_4490634(1).png" alt="twitter">
+                  </div><br>
+               </section>
+               </main>
+                <footer>
+                     &copy;Cloudy Corner Weather Site | Vanna H.R. | 
+                    <span id="date"></span> <br>
+                    <p>Weather data source: <a href="https://openweathermap.org/">https://openweathermap.org/</a></p>
+                </footer>
+                <script src="js/script.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+                <script src="js/webfont.js"></script>
+                <script src="js/sodaevents.js"></script>
+                <script src="js/sodasum.js"></script>
+                <script src="js/sodaforecast.js"></script>
+
+            </body>
+        </html>

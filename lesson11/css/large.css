@@ -61,6 +61,20 @@
             color: black;
           }
 
+         
+
+          .prestonartimg {
+              margin-top: 0;
+              padding: 0;   
+          }
+
+          .prestonartimg img {
+            
+            margin-top: 0;
+            padding: 0;
+            
+          }
+
           .preston-map {
               margin-right: 100px;
           }
@@ -72,6 +86,8 @@
           .preston-map img {
             width: auto;
           }
+
+          
         
 
           /* Gallery Code */
@@ -121,6 +137,58 @@
             grid-row: 1;
             grid-column: 1 / 3;
         }
+
+        /* fish haven */
+
+        .fishart img {
+            width: 200px;
+        }
+
+        .fishart p {
+            padding: 10px;
+        }
+
+        .fishart {
+            margin-bottom: 115px;
+        }
+
+        /*INDEX*/
+
+        .index-article {
+            margin-bottom: 40px;
+    
+        }
+
+        .index-trees {
+            
+            float: inline-end;
+            margin: 0;
+            width: 200px;
+            box-shadow: 5px 5px 5px;
+            margin: 5px;
+        
+        }
+
+ /* SODA SPRINGS */
+
+ .sodaart img {
+     width: 27%;
+     margin-top: 0;
+     margin-bottom: 0;
+     margin-left: 5px;
+     
+
+
+
+ }
+
+ .sodaart {
+     margin-bottom: 30px;
+ }
+
+        
+
+        
 
         
 

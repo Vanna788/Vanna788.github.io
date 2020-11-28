@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8" >
+        <meta name="Description" content="A weather page of Fish Haven, Idaho. Gives current weather conditions and a five day forecast.Also has a local area article.">
+        <meta name="author" content="Vanna H.R."> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>
+          Cloudy Corner Fish Haven
+        </title>
+        <link rel="shortcut icon" href="favicon.ico" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+            <img class="logo" src="images/weathervane1.jpg" alt="a weather vane logo">
+            </a>
+          <h1>
+              Cloudy Corner Weather Site<br>
+              <i class="motto">Not all clouds are grey</i>
+          </h1>
+        </header>
+        <nav>
+            <button onclick="menuTab()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li class="active"><a href="fishhaven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <main class="preston">
+
+            <h2>
+                Fish Haven
+            </h2>
+
+            <section class="fishevents">
+
+            </section>
+            <section class="herosec">
+                <picture class="hero">
+                  <source media="(max-width: 400px)" srcset="images/fishhavenhero400.jpg">
+                  <source media="(max-width: 800px)" srcset="images/fishhavenhero800.jpg">
+                  <source media="(max-width: 1200px)" srcset="images/fishhavenhero1200.jpg">
+                  <img class="falltrees" src="images/fishhavenhero1.jpg" alt="A view at the lake.">
+                </picture>
+              <div class="weathersummary">
+                  <h3>
+                      Weather Summary
+                  </h3>
+                  <p>
+                      Currently: <span id="currentlyfish"></span> <br>
+                      Temp.: <span id="htfish"></span>&#8457; <br>
+                      Wind Chill: <span id="wcfish">  </span>&#8457; <br>
+                      Humidity: <span id="humfish"></span>% <br>
+                      WindSpeed: <span id="wsfish"></span>MPH
+                  </p>
+              </div>
+              </section>
+              <h2 class="fd">Five day forecast</h2>
+        <section class="fivedayforecast">    
+       </section>
+
+       <article class="fishart">
+        
+        <img src="images/fishfry2.jpg" alt="A plate of fried fish and fries!">
+        
+        <h3>
+            Fish fry Friday!
+        </h3>
+        <h4>By: Walter Reed</h4>
+        <p>
+          Wish fish fry friday was more than a few months of the year? Do you love freshly caught fish cooked to your liking? 
+          You should come down to your local lake and enjoy the company of your fellow fishermen and fry up your fresh catches on the shore. 
+          Only held during the warm months of the year and starts at 4:00 p.m. . A family friendly activity! Please bring your own grills and fishing poles.
+        </p>
+    </article>
+    
+
+            
+
+            <section class="contact-us">
+           
+                <div class="preston-map">
+                    <img src="images/idaho-map.jpg" alt="Map of Preston Idaho">
+                </div>
+                <div class="address">
+                   <b>Cloudy Corner Weather Site</b><br>
+                   103 S Appleview Dr.<br>
+                   Preston, Idaho 83263<br><br>
+                 &#9742; 333-456-7890 <br>
+                 &#9993; cloudycornerweather@email.com<br><br>
+                   <img class="socialmedia" src="images/iconfinder_Circled_Instagram_svg_5279112(1).png" alt="instagram">
+                   <img class="socialmedia" src="images/iconfinder_Facebook_4490615(1).png" alt="facebook">
+                   <img class="socialmedia" src="images/iconfinder_Twitter_4490634(1).png" alt="twitter">
+                  </div><br>
+               </section>
+               </main>
+                <footer>
+                     &copy;Cloudy Corner Weather Site | Vanna H.R. | 
+                    <span id="date"></span> <br>
+                    <p>Weather data source: <a href="https://openweathermap.org/">https://openweathermap.org/</a></p>
+                </footer>
+                <script src="js/script.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+                <script src="js/webfont.js"></script>
+               <script src="js/fishsummary.js"></script>
+               <script src="js/fishforecast.js"></script>
+               <script src="js/fishevents.js"></script>
+
+            </body>
+        </html>
