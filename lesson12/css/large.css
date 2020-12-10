@@ -1,0 +1,73 @@
+@media only screen and (min-width: 1028px) {
+
+    main, section { max-width: 64rem;
+        margin:  0% auto;
+        }
+     
+
+       header {
+           display: block;
+       }
+
+       #logo {
+           width: 300px;
+       }
+
+       header h1 {
+           margin-left: 5px;
+       }
+
+       nav button {
+           display: none;
+       }
+
+       nav ul.hide {
+           display: flex;
+           align-items: center;
+           justify-content: center;
+       }
+
+       nav li:hover {
+           background-color: red;
+           
+       }
+
+       .index-images {
+          
+           display: flex;
+           flex-direction: row;
+           align-items: center;
+           justify-content: center;
+
+       }
+
+       .index-images img {
+           width: 40%;
+           margin: 15px;
+       }
+
+       .contact-index {
+           margin-left: auto;
+           margin-right: auto;
+           height: 200px;
+
+       }
+
+       .contact-index div {
+         margin: 100px;
+         margin-top: 20px;
+       }
+
+       /* tours page */
+
+       .history div {
+         font-size: 20px;
+       }
+      
+      
+      
+
+
+
+      
+}

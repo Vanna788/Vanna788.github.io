@@ -1,0 +1,282 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Merienda', cursive;
+}
+.active {
+    background-color: lightgray;
+}
+
+main, section {
+    margin: 0 5px;
+}
+
+#logo {
+    width: 100%;
+    
+    background-color: red;
+}
+
+ .index h1 {
+    font-family: 'Merienda', cursive;
+    text-align: center;
+}
+
+header h1 {
+    grid-column: 2 / 3;
+    margin-top: 10px;
+    padding: 0;
+    font-family: 'Merienda', cursive;
+    
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    background-color: #ffd400;
+
+}
+
+
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 0%;
+    margin: 0%;
+    
+
+
+}
+
+ nav a:link {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0%;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+nav button {
+    margin-left: 0px;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 30px;
+    outline: none;
+    
+}
+
+nav li {
+    padding: 10px;
+    font-size: 25px;
+    margin: 0%;
+    background-color:#ffd400;
+    color: black;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+/* INDEX-CONTACT */
+
+.contact-index {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    background-color: #ffd400;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+ 
+
+
+.index-map {
+    width: 100px;
+    height: 110px;
+    margin-right: 20px;
+    padding: 0;
+}
+
+/* INDEX IMAGES */
+
+.index-images img {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px gray;
+    
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    background-color: #ffd400;
+    padding: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Current weather */
+
+.currentweather {
+    text-align: center;
+    background-color: #ffd400;
+    font-family: 'Cabin', sans-serif;
+    border: darkred 2px solid;
+    margin: 20px;
+    
+
+}
+
+.currentweather h2 {
+    margin-bottom: 0;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.currentweather span {
+    pad: 10px;
+}
+
+/* INDEX-SUMMARY */
+
+.index-summary {
+    background-color: lightgray;
+    
+
+}
+
+.index-summary p {
+    padding: 5px;
+    font-family: 'Cabin', sans-serif;
+    
+    
+}
+
+/* FORECAST */
+
+.forecast {
+    display: flex;
+    
+    
+}
+
+.forecast div {
+    margin: 10px;
+    border: darkred 3px inset;
+    box-shadow: gray 5px 5px 10px;
+    width: 90px;
+
+}
+
+.forecast img, h4, p {
+    padding: 5px;
+}
+
+/* TOURS PAGE */
+
+.mayanruins {
+    width: 50%;
+    float: left;
+    border: 2px darkred inset;
+    margin-right: 3px;
+}
+
+.historypart {
+    background-color: lightgray;
+    padding: 5px;
+    
+
+}
+
+.reefpart img {
+    width: 50%;
+    border: 2px darkred inset;
+
+    
+}
+
+
+
+.blowfishpic {
+    float: right;
+}
+
+.reefpart {
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.tours h1 {
+  text-align: center;
+}
+
+.horses {
+    width: 50%;
+    border: 2px darkred inset;
+    float: left;
+    margin-right: 3px;
+
+
+}
+
+.horse-part {
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+
+}
+
+/* RENTAL PAGE */
+
+.rental-table table {
+  border: darkgray solid 2px;
+  margin: 10px auto 10px auto;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffd400;
+}
+
+.rental-table table th, td {
+    border: solid 2px darkgrey;
+    font-size: 20px;
+}
+
+.rental-table table, th, td {
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.rental-table table thead th {
+    font-size: 25px;
+    padding: 10px;
+}
+
+.rental-table table td:nth-child(even) {
+    text-align: center;
+}
+
+
+
+
+
+
+

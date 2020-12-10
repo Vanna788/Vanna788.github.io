@@ -1,0 +1,46 @@
+{
+    "rentals": [
+        {
+            "name": "Honda Metro Scooter",
+            "resHalfday": 20,
+            "resFullday": 30,
+            "walkHalfday": 25,
+            "walkFullday": 35
+        },
+        {
+        "name": "Honda Dio Scooter",
+        "resHalfday": 30,
+        "resFullday": 40,
+        "walkHalfday": 35,
+        "walkFullday": 45
+        },
+        {
+            "name": "Honda PCX150 Scooter",
+            "resHalfday": 40,
+            "resFullday": 50,
+            "walkHalfday": 45,
+            "walkFullday": 55
+        },
+        {
+        "name": "Honda Pioneer ATV",
+        "resHalfday": 50,
+        "resFullday": 70,
+        "walkHalfday": 60,
+        "walkFullday": 80
+        },
+        {
+        "name": "Jeep Wragler 4 Door",
+        "resHalfday": 70,
+        "resFullday": 100,
+        "walkHalfday": 85,
+        "walkFullday": 125
+        },
+        {
+            "name": "Jeep Wrangler 2 Door",
+            "resHalfday": 60,
+            "resFullday": 85,
+            "walkHalfday": 70,
+            "walkFullday": 90
+        }
+    ] 
+}
