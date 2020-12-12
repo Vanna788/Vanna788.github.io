@@ -49,6 +49,13 @@ header h1 {
     grid-gap: 5px;
 }
 
+/* RESERVATION PAGE */
 
-
+.res-button {
+    margin-left: 15px;
 }
+
+.rental-type select {
+    margin-left: 5px;
+}
+

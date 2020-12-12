@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Scoots' Reservations Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="shortcut icon" href="faviconscoots.ico" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+            <img id="logo" src="images/scootslogo.png" alt="Scoots' Logo, a motor scooter.">
+            </a>
+       
+            <h1>
+                Scoots Rentals
+            </h1>
+           
+          
+           
+           
+        </header>
+  
+           
+           <nav>
+            <button onclick="menuTab()">&#9776;</button>
+               <ul id="primaryNav" class="hide">
+                <a href="index.html">
+                  <li>
+                       Home
+            
+                  </li>
+                </a>
+                <a href="tours.html">
+                    <li>
+                        Tours
+   
+                    </li>
+                  </a>
+                  <a href="rentals.html">
+                    <li>
+                        Rentals
+   
+                    </li>
+                  </a>
+                  <a href="reservations.html">
+                    <li class="active">
+                        Reservations
+   
+                    </li>
+                  </a>
+                  <a href="contact-us.html">
+                    <li>
+                        Contact Us
+   
+                    </li>
+                  </a>
+                           
+                   
+               </ul>
+           </nav>
+        <main class="reservations">
+            <h1>Make a Reservation</h1>
+
+            <h2><b>Important Rental Information, please read below:</b> </h2>
+
+            <div class="info-before-form">
+                <b>Reservations rate requires 24 hour prior notification.<br>
+                A $50 security deposit is required to confirm reservations.<br>
+                Payment via Google Pay, cash, credit card, debit card, or PayPal.<br>
+                A valid drivers license is required in hand at time of rental.<br>
+                No one under 12 years of age are allowed to ride on the scooters.<br>
+                Liability insurance is free of charge.<br>
+                Fuel charge not included.<br>
+                Unlimited mileage.<br>
+                Free delivery to Cozumel hotel, Airbnb, or private residence for 2+ day rentals.<br>
+                Rentals may be returned to either location.</b>
+
+            </div>
+            <section class="res-form">
+
+                <form method="GET" action="thankyou.html">
+
+                  <fieldset>
+                      <legend>
+                          Contact Information
+                      </legend>
+                      <label>Full Name<input class="top" type="text" name="name" pattern="[A-Za-z].{5,}" required></label>
+                      <label>Email<input class="top" type="email" name="email" placeholder="someone@email.com" required></label>
+                      <label>Phone Number<input class="top" type="tel" name="number" placeholder="1110001111" required></label>
+                      <label>Home Country<input class="top" type="text" name="country" required></label>
+                      <label>Cruise Line(Optional)<input class="top" type="text" name="cruise-line"></label>
+
+
+
+
+
+
+                  </fieldset>
+
+                  <fieldset>
+
+                    <legend>Rental Details</legend>
+
+                    <label>Date of Pickup<input class="top" type="date" name="date" required></label>
+                    <p class="prental">Period of Rental</p>
+                    <label class="rad"><input type="radio" name="period" value="Half-Day" required>Half-Day</label>
+                    <label class="rad"><input type="radio" name="period" value="Full-Day" required>Full-Day</label>
+                    <label class="rental-type">Rental Type
+                        <select name="rental">
+                            <option value="">Select your Rental!</option>
+                            <option value="metro">Honda Metro Scooter</option>
+                            <option value="dio">Honda Dio Scooter</option>
+                            <option value="pcx150">Honda PCX150 Scooter</option>
+                            <option value="pioneer">Honda Pioneer ATV</option>
+                            <option value="jeep2door">Jeep Wrangler 2 Door</option>
+                            <option value="jeep4door">Jeep Wrangler 4 Door a/c</option>  
+                        </select>
+                        </label>
+                        <label>Number of Rentals<input class="top" type="number" name="quantity" min="1" max="10" required></label>
+                        <label>Drop off Location(Optional)<input class="top" type="text" name="drop-off"></label>
+                        <label class="comments">Additional Notes<textarea name="comments"></textarea></label>
+
+
+
+
+                  </fieldset>
+                  <input type="submit" value="Submit my Reservation" class="res-button">
+
+
+                </form>
+
+
+
+
+
+
+
+            </section>
+
+
+
+
+        </main>
+        <section class="contact-index">
+         
+
+         <div class="index-address">
+            
+             <i>Scoots Rentals #1</i><br>
+             770th calle<br>
+             Cozumo, Mexico 77600<br>
+             &#9742;888-0369
+
+         </div>
+
+         <div class="index-address">
+            
+            <i>Scoots Rentals #2</i><br>
+            10th Calle<br>
+            Cozumo, Mexico 77600<br>
+            &#9742;888-9630
+
+        </div>
+
+
+            
+        
+        <div class="social-media">
+          <a href="https://twitter.com/" target="_blank">  <img src="images/iconfinder_Twitter_4490634(1).png" alt="Twitter"> </a>
+           <a href="https://www.facebook.com/" target="_blank"> <img src="images/iconfinder_Facebook_4490615(1).png" alt="Facebook"> </a>
+
+        </div>
+    
+    </section>
+
+    <footer>
+        <p>&copy; Vanna H.R. | WDD 230 | <span id="date"></span> |  </p>
+    </footer>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfont.js"></script>
+    <script src="js/menu.js"></script>
+    
+</body>
+
+</html>    

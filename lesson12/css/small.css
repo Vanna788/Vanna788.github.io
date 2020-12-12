@@ -194,7 +194,7 @@ footer {
 .mayanruins {
     width: 50%;
     float: left;
-    border: 2px darkred inset;
+    border-radius: 10px;
     margin-right: 3px;
 }
 
@@ -207,7 +207,7 @@ footer {
 
 .reefpart img {
     width: 50%;
-    border: 2px darkred inset;
+    border-radius: 10px;
 
     
 }
@@ -231,7 +231,7 @@ footer {
 
 .horses {
     width: 50%;
-    border: 2px darkred inset;
+    border-radius: 10px;
     float: left;
     margin-right: 3px;
 
@@ -273,6 +273,211 @@ footer {
 .rental-table table td:nth-child(even) {
     text-align: center;
 }
+
+
+
+.rental-des img {
+ width: 50%;
+ border-radius: 10px;
+ margin: 10px;
+
+ 
+ 
+}
+
+.rental-des div {
+    background-color: lightgrey;
+    padding: 10px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 20px;
+}
+
+#jeeps {
+    margin-bottom: 10px;
+}
+
+.rentals h1 {
+ text-align: center;
+}
+
+/* RESERVATIONS PAGE */
+
+.reservations h1, h2, div {
+    text-align: center;
+}
+
+.reservations legend {
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    
+}
+
+.reservations fieldset {
+    border: inset #ffd400;
+    margin: 20px;
+}
+
+.info-before-form {
+    background-color: #ffd400;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.reservations h2 {
+    font-family: 'Roboto',sans-serif;
+}
+
+.top {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding: 10px;
+}
+
+label {
+
+    font-size: 20px;
+
+}
+
+
+.rad {
+    display: flex;
+    font-size: 20px;
+    margin: 10px;
+    
+    
+}
+
+.rad input {
+    margin: 5px;
+}
+
+
+  
+
+.rental-type {
+    display: flex;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 0;
+}
+
+.comments textarea {
+    display: flex; 
+}
+
+.prental {
+    margin: 0;
+    font-size: 20px;
+}
+
+.rental-type select option {
+    font-size: 20px;
+}
+
+.rental-type select option:hover {
+  background-color: lightgray;
+}
+
+.rental-type select {
+    font-size: 20px;
+
+    padding: 10px;
+}
+
+.res-button {
+    background-color: #ffd400;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: 'Cabin',sans-serif;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px;
+}
+
+form label input:required {
+    border: red solid 2px;
+    background-color: lightgrey;
+
+
+}
+
+form label input:required:valid {
+  border-left: green solid 6px;
+  background-color: white;
+}
+
+/* THANK YOU */
+
+.thank-you h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+/* MAPS */
+
+.contact-us h1, h2 {
+    text-align: center;
+}
+
+.contact-rent-info {
+    text-align: center;
+    margin: 20px;
+    background-color: #ffd400;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.maps {
+    display: flex;
+    flex-direction: column;
+}
+
+.maps div {
+    margin: 15px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+}
+
+.top input:invalid {
+    border: red solid 2px;
+    background-color: lightgrey;
+}
+
+.top input {
+    font-size: 25px;
+}
+
+.top input:valid {
+    border-left: green solid 6px;
+  background-color: white;
+}
+.contact-form form fieldset {
+    border: inset #ffd400;
+}
+
+.contact-form form {
+    font-family: 'Cabin',sans-serif;
+}
+
+.maps h3 {
+    text-align: center;
+}
+
+.contact-us-thankyou {
+    text-align: center;
+}
+
 
 
 
