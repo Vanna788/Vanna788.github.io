@@ -151,7 +151,7 @@ footer {
 }
 
 .currentweather span {
-    pad: 10px;
+    padding: 10px;
 }
 
 /* INDEX-SUMMARY */
@@ -280,6 +280,7 @@ footer {
  width: 50%;
  border-radius: 10px;
  margin: 10px;
+ box-shadow: 10px 10px 5px gray;
 
  
  
@@ -426,6 +427,10 @@ form label input:required:valid {
     text-align: center;
 }
 
+.contact-us h2 {
+    font-family: 'Cabin',sans-serif;
+}
+
 .contact-rent-info {
     text-align: center;
     margin: 20px;
@@ -470,8 +475,13 @@ form label input:required:valid {
     font-family: 'Cabin',sans-serif;
 }
 
+.contact-form form legend {
+    font-size: 25px;
+}
+
 .maps h3 {
     text-align: center;
+    
 }
 
 .contact-us-thankyou {
